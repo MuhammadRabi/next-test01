@@ -1,4 +1,4 @@
-import PageTitle from "@components/PageTitle";
+import PageTitle from "@app/components/PageTitle";
 import Link from "next/link";
 const page = () => {
   return (

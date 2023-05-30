@@ -10,7 +10,7 @@ const Repo = ({
 }) => {
   return (
     <Link href={`/repos/${name}`}>
-      <section className="flex flex-col w-1/3 p-4 mx-auto mb-6 duration-300 rounded-sm shadow-lg hover:translate-x-3 bg-slate-300">
+      <section className="flex flex-col p-4 mb-6 duration-300 rounded-sm shadow-lg hover:translate-x-3 bg-slate-300">
         <h2 className="mb-4 font-bold capitalize text-slate-800">{name}</h2>
         <p>{description}</p>
         <div className="flex justify-between mt-6 stats">
